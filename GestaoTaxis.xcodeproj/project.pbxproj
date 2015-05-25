@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		169F5C961B13CC540064F5DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169F5C951B13CC540064F5DF /* AppDelegate.swift */; };
+		169F5C991B13CC540064F5DF /* GestaoTaxis.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 169F5C971B13CC540064F5DF /* GestaoTaxis.xcdatamodeld */; };
+		169F5C9B1B13CC540064F5DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169F5C9A1B13CC540064F5DF /* ViewController.swift */; };
+		169F5C9E1B13CC540064F5DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 169F5C9C1B13CC540064F5DF /* Main.storyboard */; };
+		169F5CA01B13CC540064F5DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 169F5C9F1B13CC540064F5DF /* Images.xcassets */; };
+		169F5CA31B13CC540064F5DF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 169F5CA11B13CC540064F5DF /* LaunchScreen.xib */; };
+		169F5CAF1B13CC540064F5DF /* GestaoTaxisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169F5CAE1B13CC540064F5DF /* GestaoTaxisTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		169F5CA91B13CC540064F5DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 169F5C881B13CC540064F5DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 169F5C8F1B13CC540064F5DF;
+			remoteInfo = GestaoTaxis;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		169F5C901B13CC540064F5DF /* GestaoTaxis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GestaoTaxis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		169F5C941B13CC540064F5DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		169F5C951B13CC540064F5DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		169F5C981B13CC540064F5DF /* GestaoTaxis.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GestaoTaxis.xcdatamodel; sourceTree = "<group>"; };
+		169F5C9A1B13CC540064F5DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		169F5C9D1B13CC540064F5DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		169F5C9F1B13CC540064F5DF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		169F5CA21B13CC540064F5DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		169F5CA81B13CC540064F5DF /* GestaoTaxisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GestaoTaxisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		169F5CAD1B13CC540064F5DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		169F5CAE1B13CC540064F5DF /* GestaoTaxisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestaoTaxisTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		169F5C8D1B13CC540064F5DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169F5CA51B13CC540064F5DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		169F5C871B13CC540064F5DF = {
+			isa = PBXGroup;
+			children = (
+				169F5C921B13CC540064F5DF /* GestaoTaxis */,
+				169F5CAB1B13CC540064F5DF /* GestaoTaxisTests */,
+				169F5C911B13CC540064F5DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		169F5C911B13CC540064F5DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				169F5C901B13CC540064F5DF /* GestaoTaxis.app */,
+				169F5CA81B13CC540064F5DF /* GestaoTaxisTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		169F5C921B13CC540064F5DF /* GestaoTaxis */ = {
+			isa = PBXGroup;
+			children = (
+				169F5C951B13CC540064F5DF /* AppDelegate.swift */,
+				169F5C9A1B13CC540064F5DF /* ViewController.swift */,
+				169F5C9C1B13CC540064F5DF /* Main.storyboard */,
+				169F5C9F1B13CC540064F5DF /* Images.xcassets */,
+				169F5CA11B13CC540064F5DF /* LaunchScreen.xib */,
+				169F5C971B13CC540064F5DF /* GestaoTaxis.xcdatamodeld */,
+				169F5C931B13CC540064F5DF /* Supporting Files */,
+			);
+			path = GestaoTaxis;
+			sourceTree = "<group>";
+		};
+		169F5C931B13CC540064F5DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				169F5C941B13CC540064F5DF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		169F5CAB1B13CC540064F5DF /* GestaoTaxisTests */ = {
+			isa = PBXGroup;
+			children = (
+				169F5CAE1B13CC540064F5DF /* GestaoTaxisTests.swift */,
+				169F5CAC1B13CC540064F5DF /* Supporting Files */,
+			);
+			path = GestaoTaxisTests;
+			sourceTree = "<group>";
+		};
+		169F5CAC1B13CC540064F5DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				169F5CAD1B13CC540064F5DF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		169F5C8F1B13CC540064F5DF /* GestaoTaxis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 169F5CB21B13CC540064F5DF /* Build configuration list for PBXNativeTarget "GestaoTaxis" */;
+			buildPhases = (
+				169F5C8C1B13CC540064F5DF /* Sources */,
+				169F5C8D1B13CC540064F5DF /* Frameworks */,
+				169F5C8E1B13CC540064F5DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GestaoTaxis;
+			productName = GestaoTaxis;
+			productReference = 169F5C901B13CC540064F5DF /* GestaoTaxis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		169F5CA71B13CC540064F5DF /* GestaoTaxisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 169F5CB51B13CC540064F5DF /* Build configuration list for PBXNativeTarget "GestaoTaxisTests" */;
+			buildPhases = (
+				169F5CA41B13CC540064F5DF /* Sources */,
+				169F5CA51B13CC540064F5DF /* Frameworks */,
+				169F5CA61B13CC540064F5DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				169F5CAA1B13CC540064F5DF /* PBXTargetDependency */,
+			);
+			name = GestaoTaxisTests;
+			productName = GestaoTaxisTests;
+			productReference = 169F5CA81B13CC540064F5DF /* GestaoTaxisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		169F5C881B13CC540064F5DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Paulo Alves";
+				TargetAttributes = {
+					169F5C8F1B13CC540064F5DF = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					169F5CA71B13CC540064F5DF = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 169F5C8F1B13CC540064F5DF;
+					};
+				};
+			};
+			buildConfigurationList = 169F5C8B1B13CC540064F5DF /* Build configuration list for PBXProject "GestaoTaxis" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 169F5C871B13CC540064F5DF;
+			productRefGroup = 169F5C911B13CC540064F5DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				169F5C8F1B13CC540064F5DF /* GestaoTaxis */,
+				169F5CA71B13CC540064F5DF /* GestaoTaxisTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		169F5C8E1B13CC540064F5DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				169F5C9E1B13CC540064F5DF /* Main.storyboard in Resources */,
+				169F5CA31B13CC540064F5DF /* LaunchScreen.xib in Resources */,
+				169F5CA01B13CC540064F5DF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169F5CA61B13CC540064F5DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		169F5C8C1B13CC540064F5DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				169F5C9B1B13CC540064F5DF /* ViewController.swift in Sources */,
+				169F5C991B13CC540064F5DF /* GestaoTaxis.xcdatamodeld in Sources */,
+				169F5C961B13CC540064F5DF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169F5CA41B13CC540064F5DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				169F5CAF1B13CC540064F5DF /* GestaoTaxisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		169F5CAA1B13CC540064F5DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 169F5C8F1B13CC540064F5DF /* GestaoTaxis */;
+			targetProxy = 169F5CA91B13CC540064F5DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		169F5C9C1B13CC540064F5DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				169F5C9D1B13CC540064F5DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		169F5CA11B13CC540064F5DF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				169F5CA21B13CC540064F5DF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		169F5CB01B13CC540064F5DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		169F5CB11B13CC540064F5DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		169F5CB31B13CC540064F5DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GestaoTaxis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		169F5CB41B13CC540064F5DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GestaoTaxis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		169F5CB61B13CC540064F5DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GestaoTaxisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GestaoTaxis.app/GestaoTaxis";
+			};
+			name = Debug;
+		};
+		169F5CB71B13CC540064F5DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GestaoTaxisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GestaoTaxis.app/GestaoTaxis";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		169F5C8B1B13CC540064F5DF /* Build configuration list for PBXProject "GestaoTaxis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				169F5CB01B13CC540064F5DF /* Debug */,
+				169F5CB11B13CC540064F5DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		169F5CB21B13CC540064F5DF /* Build configuration list for PBXNativeTarget "GestaoTaxis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				169F5CB31B13CC540064F5DF /* Debug */,
+				169F5CB41B13CC540064F5DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		169F5CB51B13CC540064F5DF /* Build configuration list for PBXNativeTarget "GestaoTaxisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				169F5CB61B13CC540064F5DF /* Debug */,
+				169F5CB71B13CC540064F5DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		169F5C971B13CC540064F5DF /* GestaoTaxis.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				169F5C981B13CC540064F5DF /* GestaoTaxis.xcdatamodel */,
+			);
+			currentVersion = 169F5C981B13CC540064F5DF /* GestaoTaxis.xcdatamodel */;
+			path = GestaoTaxis.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 169F5C881B13CC540064F5DF /* Project object */;
+}
