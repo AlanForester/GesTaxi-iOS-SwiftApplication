@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16125D5A1B167F6E00639638 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 16125D591B167F6E00639638 /* add.png */; };
+		1661C6A71B14EA92003F60B9 /* EditarFilialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1661C6A61B14EA92003F60B9 /* EditarFilialView.swift */; };
+		1672BCF81B15381000D04AE5 /* Filial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1672BCF71B15381000D04AE5 /* Filial.swift */; };
+		1672BCFA1B15387200D04AE5 /* Taxi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1672BCF91B15387200D04AE5 /* Taxi.swift */; };
+		1678EC041B1638B300C99525 /* taxi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1678EC031B1638B300C99525 /* taxi.jpg */; };
 		169F5C961B13CC540064F5DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169F5C951B13CC540064F5DF /* AppDelegate.swift */; };
 		169F5C991B13CC540064F5DF /* GestaoTaxis.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 169F5C971B13CC540064F5DF /* GestaoTaxis.xcdatamodeld */; };
 		169F5C9B1B13CC540064F5DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169F5C9A1B13CC540064F5DF /* ViewController.swift */; };
@@ -14,6 +19,11 @@
 		169F5CA01B13CC540064F5DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 169F5C9F1B13CC540064F5DF /* Images.xcassets */; };
 		169F5CA31B13CC540064F5DF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 169F5CA11B13CC540064F5DF /* LaunchScreen.xib */; };
 		169F5CAF1B13CC540064F5DF /* GestaoTaxisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169F5CAE1B13CC540064F5DF /* GestaoTaxisTests.swift */; };
+		169F5CB91B13CF030064F5DF /* FiliaisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169F5CB81B13CF030064F5DF /* FiliaisView.swift */; };
+		16B059151B167DEA009F34E7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16B059141B167DEA009F34E7 /* MapKit.framework */; };
+		16F689F11B13D77000B58079 /* TaxistasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F689F01B13D77000B58079 /* TaxistasView.swift */; };
+		16F689F71B13E74600B58079 /* GestaoBLL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F689F61B13E74600B58079 /* GestaoBLL.swift */; };
+		16F689FD1B13ECAF00B58079 /* CriarFilialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F689FC1B13ECAF00B58079 /* CriarFilialView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16125D591B167F6E00639638 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = add.png; path = ../../add.png; sourceTree = "<group>"; };
+		1661C6A61B14EA92003F60B9 /* EditarFilialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditarFilialView.swift; sourceTree = "<group>"; };
+		1672BCF71B15381000D04AE5 /* Filial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Filial.swift; sourceTree = "<group>"; };
+		1672BCF91B15387200D04AE5 /* Taxi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Taxi.swift; sourceTree = "<group>"; };
+		1678EC031B1638B300C99525 /* taxi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taxi.jpg; sourceTree = "<group>"; };
 		169F5C901B13CC540064F5DF /* GestaoTaxis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GestaoTaxis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		169F5C941B13CC540064F5DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		169F5C951B13CC540064F5DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +53,11 @@
 		169F5CA81B13CC540064F5DF /* GestaoTaxisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GestaoTaxisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		169F5CAD1B13CC540064F5DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		169F5CAE1B13CC540064F5DF /* GestaoTaxisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestaoTaxisTests.swift; sourceTree = "<group>"; };
+		169F5CB81B13CF030064F5DF /* FiliaisView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiliaisView.swift; sourceTree = "<group>"; };
+		16B059141B167DEA009F34E7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		16F689F01B13D77000B58079 /* TaxistasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaxistasView.swift; sourceTree = "<group>"; };
+		16F689F61B13E74600B58079 /* GestaoBLL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GestaoBLL.swift; sourceTree = "<group>"; };
+		16F689FC1B13ECAF00B58079 /* CriarFilialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CriarFilialView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16B059151B167DEA009F34E7 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +82,9 @@
 		169F5C871B13CC540064F5DF = {
 			isa = PBXGroup;
 			children = (
+				16B059141B167DEA009F34E7 /* MapKit.framework */,
+				1672BCF91B15387200D04AE5 /* Taxi.swift */,
+				1672BCF71B15381000D04AE5 /* Filial.swift */,
 				169F5C921B13CC540064F5DF /* GestaoTaxis */,
 				169F5CAB1B13CC540064F5DF /* GestaoTaxisTests */,
 				169F5C911B13CC540064F5DF /* Products */,
@@ -82,6 +106,11 @@
 				169F5C951B13CC540064F5DF /* AppDelegate.swift */,
 				169F5C9A1B13CC540064F5DF /* ViewController.swift */,
 				169F5C9C1B13CC540064F5DF /* Main.storyboard */,
+				169F5CB81B13CF030064F5DF /* FiliaisView.swift */,
+				16F689FC1B13ECAF00B58079 /* CriarFilialView.swift */,
+				1661C6A61B14EA92003F60B9 /* EditarFilialView.swift */,
+				16F689F01B13D77000B58079 /* TaxistasView.swift */,
+				16F689F61B13E74600B58079 /* GestaoBLL.swift */,
 				169F5C9F1B13CC540064F5DF /* Images.xcassets */,
 				169F5CA11B13CC540064F5DF /* LaunchScreen.xib */,
 				169F5C971B13CC540064F5DF /* GestaoTaxis.xcdatamodeld */,
@@ -93,6 +122,8 @@
 		169F5C931B13CC540064F5DF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				16125D591B167F6E00639638 /* add.png */,
+				1678EC031B1638B300C99525 /* taxi.jpg */,
 				169F5C941B13CC540064F5DF /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -196,7 +227,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				169F5C9E1B13CC540064F5DF /* Main.storyboard in Resources */,
+				1678EC041B1638B300C99525 /* taxi.jpg in Resources */,
 				169F5CA31B13CC540064F5DF /* LaunchScreen.xib in Resources */,
+				16125D5A1B167F6E00639638 /* add.png in Resources */,
 				169F5CA01B13CC540064F5DF /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,9 +248,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16F689F11B13D77000B58079 /* TaxistasView.swift in Sources */,
+				16F689FD1B13ECAF00B58079 /* CriarFilialView.swift in Sources */,
 				169F5C9B1B13CC540064F5DF /* ViewController.swift in Sources */,
+				169F5CB91B13CF030064F5DF /* FiliaisView.swift in Sources */,
 				169F5C991B13CC540064F5DF /* GestaoTaxis.xcdatamodeld in Sources */,
 				169F5C961B13CC540064F5DF /* AppDelegate.swift in Sources */,
+				1661C6A71B14EA92003F60B9 /* EditarFilialView.swift in Sources */,
+				1672BCFA1B15387200D04AE5 /* Taxi.swift in Sources */,
+				16F689F71B13E74600B58079 /* GestaoBLL.swift in Sources */,
+				1672BCF81B15381000D04AE5 /* Filial.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +453,7 @@
 				169F5CB41B13CC540064F5DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		169F5CB51B13CC540064F5DF /* Build configuration list for PBXNativeTarget "GestaoTaxisTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +462,7 @@
 				169F5CB71B13CC540064F5DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
