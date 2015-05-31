@@ -22,7 +22,6 @@
 		169F5CB91B13CF030064F5DF /* FiliaisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169F5CB81B13CF030064F5DF /* FiliaisView.swift */; };
 		16B059151B167DEA009F34E7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16B059141B167DEA009F34E7 /* MapKit.framework */; };
 		16F689F11B13D77000B58079 /* TaxistasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F689F01B13D77000B58079 /* TaxistasView.swift */; };
-		16F689F71B13E74600B58079 /* GestaoBLL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F689F61B13E74600B58079 /* GestaoBLL.swift */; };
 		16F689FD1B13ECAF00B58079 /* CriarFilialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F689FC1B13ECAF00B58079 /* CriarFilialView.swift */; };
 /* End PBXBuildFile section */
 
@@ -56,7 +55,6 @@
 		169F5CB81B13CF030064F5DF /* FiliaisView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiliaisView.swift; sourceTree = "<group>"; };
 		16B059141B167DEA009F34E7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		16F689F01B13D77000B58079 /* TaxistasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaxistasView.swift; sourceTree = "<group>"; };
-		16F689F61B13E74600B58079 /* GestaoBLL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GestaoBLL.swift; sourceTree = "<group>"; };
 		16F689FC1B13ECAF00B58079 /* CriarFilialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CriarFilialView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,7 +108,6 @@
 				16F689FC1B13ECAF00B58079 /* CriarFilialView.swift */,
 				1661C6A61B14EA92003F60B9 /* EditarFilialView.swift */,
 				16F689F01B13D77000B58079 /* TaxistasView.swift */,
-				16F689F61B13E74600B58079 /* GestaoBLL.swift */,
 				169F5C9F1B13CC540064F5DF /* Images.xcassets */,
 				169F5CA11B13CC540064F5DF /* LaunchScreen.xib */,
 				169F5C971B13CC540064F5DF /* GestaoTaxis.xcdatamodeld */,
@@ -256,7 +253,6 @@
 				169F5C961B13CC540064F5DF /* AppDelegate.swift in Sources */,
 				1661C6A71B14EA92003F60B9 /* EditarFilialView.swift in Sources */,
 				1672BCFA1B15387200D04AE5 /* Taxi.swift in Sources */,
-				16F689F71B13E74600B58079 /* GestaoBLL.swift in Sources */,
 				1672BCF81B15381000D04AE5 /* Filial.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
